@@ -1,0 +1,169 @@
+.ex-1-square{
+  transition: background 1s;
+}
+.ex-1-square:hover{
+  background: red;
+}
+.ex-2-square{
+  transition:  width 1s;
+}
+.ex-2-square:active{
+  width: 300px;
+}
+.ex-3-square{
+  transition:  border-radius 1s;
+}
+.ex-3-square:hover{
+  border-radius: 50%;
+}
+.ex-4-square{
+  transition:  opacity 1s;
+}
+.ex-4-square:hover{
+  opacity: 0;
+}
+.ex-5-square{
+  transition:  transform .5s;
+}
+.ex-5-square:hover{
+  transform: scale(1.6);
+}
+.ex-5-square:active{
+  transform: scale(0.7);
+}
+.ex-6-img{
+  transition:  filter .3s;
+}
+.ex-6-img:hover{
+  filter: grayscale(100%);
+}
+.ex-7-img{
+  transition:  filter .3s ;
+}
+.ex-7-img:hover{
+  filter: brightness(2) sepia(10);
+}
+.ex-8-img{
+  transition:  all 1s ;
+}
+.ex-8-img:hover{
+  filter: brightness(2) sepia(10);
+  border-radius: 20px;
+}
+.ex-9-img{
+  transition:  all 1s ;
+}
+.ex-9-img:hover{
+  filter: brightness(2) sepia(10);
+  border-radius: 20px;
+  transform: scale(1.5);
+}
+
+.ex-10-icon {
+  animation: spin 1s linear infinite ;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(1turn);
+  }
+
+}
+
+.ex-11-icon:hover {
+  animation: spin 1s linear infinite ;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(1turn);
+  }
+
+}
+
+
+.well:hover .ex-12-top-white {
+  animation: top 1s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes top {
+  0%{
+    left: 10%;
+  }
+  100%{
+    left: 65%;
+  }
+
+}
+
+.well:hover .ex-12-bottom-white {
+  animation: bottom 1s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bottom {
+  0%{
+    right: 10%;
+  }
+  100%{
+    right: 60%;
+  }
+
+}
+
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: bottomm 1s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bottomm {
+  0%{
+    right: 10%;
+    bottom: -10px;
+  }
+  33%{
+    right: 80%;
+      bottom: -10px;
+
+  }
+  66%{
+    right: 80%;
+    bottom: 80%;
+  }
+  100%{
+    right: 20%;
+    bottom: 80%;
+  }
+
+}
+
+.ex-13-button:hover .ex-13-top-white {
+  animation: topp 1s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes topp {
+  0%{
+    left: 10%;
+    top: -10px;
+  }
+  33%{
+    left: 80%;
+      top: -10px;
+
+  }
+  66%{
+    left: 80%;
+    top: 80%;
+  }
+  100%{
+    left: 20%;
+    top: 80%;
+  }
+
+}
+
+
+/* fghfdg */
